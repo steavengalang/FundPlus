@@ -33,6 +33,7 @@ android {
 dependencies {
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.lifecycle.runtime.ktx)
+    implementation("androidx.lifecycle:lifecycle-viewmodel-ktx:2.7.0")
 
     implementation(platform(libs.androidx.compose.bom))
     implementation(libs.androidx.ui)

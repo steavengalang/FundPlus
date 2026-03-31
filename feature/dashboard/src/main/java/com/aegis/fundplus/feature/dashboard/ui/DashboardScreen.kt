@@ -52,7 +52,7 @@ fun DashboardScreen(
             fontWeight = FontWeight.Bold,
             color = Color.Black,
             letterSpacing = (-1).sp,
-            modifier = Modifier.padding(horizontal = 24.dp, top = 4.dp)
+            modifier = Modifier.padding(horizontal = 24.dp).padding(top = 4.dp)
         )
 
         Spacer(modifier = Modifier.height(32.dp))
