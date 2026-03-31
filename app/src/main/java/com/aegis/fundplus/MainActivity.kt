@@ -20,8 +20,8 @@ class MainActivity : ComponentActivity() {
                     modifier = Modifier.fillMaxSize(),
                     color = MaterialTheme.colorScheme.background
                 ) {
-                    // Navigation Host akan ditanamkan di sini. Sementara ini adalah Root UI.
-                    Text(text = "Fund+ Apex Engine Online!")
+                    // Root App UI Controller (The Nexus)
+                    ApexRouter()
                 }
             }
         }
